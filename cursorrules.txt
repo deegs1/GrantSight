@@ -1,0 +1,12 @@
+## Problem Statement
+Application had poor text contrast with light gray text on white/light backgrounds, making content difficult to read for users.
+
+## Root Causes
+Inconsistent text color classes, overuse of light Tailwind grays, lack of standardized color tokens, and no contrast checking during development.
+
+## Rules for Maintaining High Contrast
+
+1. **Use black text for headings, dark text (minimum gray-800) for all content, and appropriate contrast for tables, forms, and interactive elements.
+
+2. **Apply custom high-contrast utility classes and regularly test using contrast checking tools to maintain a minimum 4.5:1 contrast ratio.
+ 
